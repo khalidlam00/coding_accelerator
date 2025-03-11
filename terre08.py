@@ -16,7 +16,7 @@ try:
 # calcul de la puissance
     resultat = 1
     for _ in range(exposant):
-        resultat *= base # x la base par l'exposant
+        resultat *= base #  la base est x par elle meme autant de fois que l'exposant
     print(resultat)
 
 except ValueError:
